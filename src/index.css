@@ -74,3 +74,39 @@ button:focus {
   font-weight: 700;
   color: #ffff;
 }
+
+.modal-submit-ok,
+.visible {
+  width: 30rem;
+  height: 15rem;
+  border: groove 4px #adff2f;
+  box-shadow: 0 0 15px #008000;
+  background-color: #9df59d;
+  border-radius: 15px;
+  position: relative;
+  bottom: 20rem;
+  right: 4rem;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.icon {
+  width: 14rem;
+  height: 14rem;  
+  box-shadow: 0 0 15px #f9fdf9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#h2-msj {
+  font-size: 5rem;
+  color: #030303;
+}
